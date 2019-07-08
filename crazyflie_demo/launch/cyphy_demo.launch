@@ -131,6 +131,6 @@ Bag recording
 - /ghost_trajectory: This is the requested trajectory pose (simulated)
 -->
 
-<node pkg="rosbag" name="record" type="record" args="-O /home/rt-2pm2/mnt/HDD/autopilot/Crazyflie/crazyflie_ros/bags/cf1 /cf1/pose /cf1/external_pose_rpy /cf1/logEstAttRPY /vrpn_client_node/cf1/pose /ghost_trajectory"/>
+<node pkg="rosbag" name="record" type="record" args="-O /tmp/cf1 /cf1/pose /cf1/external_pose_rpy /cf1/logEstAttRPY /vrpn_client_node/cf1/pose /ghost_trajectory"/>
 
 </launch>
